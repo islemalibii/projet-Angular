@@ -1,0 +1,22 @@
+<table class="table" style="text-align: center;">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Mail</th>
+            <th>Phone</th>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Number of people</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let t of serve.ttable">
+            <td>{{t.name}}</td>
+            <td>{{t.mail}}</td>
+            <td>{{t.phone}}</td>
+            <td>{{t.date}}</td>
+            <td>{{t.time}}</td>
+            <td>{{t.nbp}}</td>
+        </tr>
+    </tbody>
+</table>

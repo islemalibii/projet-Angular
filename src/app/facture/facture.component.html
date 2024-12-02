@@ -1,0 +1,45 @@
+<app-navbar-order></app-navbar-order>
+<br>
+<section id="facture" class="book-a-table reservation-form-bg">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-header">
+        <h2>Facture</h2>
+        <p>PAY <span>Your Order</span> Here !</p>
+      </div>
+
+      <table class="table" style="text-align: center; width: 100%;">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>ORDER</th>
+                <th>Price</th>
+                <th>Remouve</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let t of serve.torder; let i = index">
+                <td>{{t.user}}</td>
+                <td>{{t.name}}</td>
+                <td>{{t.price}}</td>
+                <td><button id="min" (click)="rem(i)">x</button></td>
+            </tr>
+            <tr>
+                <th colspan="2">Total price:</th>
+                <th colspan="2">${{serve.s}}</th>
+            </tr>
+        </tbody>
+      </table>
+      <br><br>
+      <div class="text-center">
+        <button *ngIf="show == false else elseblock" (click)="showme()">Pay my order</button>
+        <ng-template #elseblock>
+          <button class="btn disabled">Pay my order</button>
+        </ng-template>
+      </div>
+    </div>
+    <div class="section-header" *ngIf="show">
+      <p>Order <span>Payed </span>Successfully !</p>
+      <br>
+    </div>
+  </section>

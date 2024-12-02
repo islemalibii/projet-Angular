@@ -1,0 +1,86 @@
+[
+        {
+            "user":"", 
+            "name":"BIBIMBAP",
+            "price":8.75
+
+
+        },
+        {
+            "user":"", 
+            "name":"TOKOYAKI",
+            "price":5.95
+            
+
+        },
+        {
+            "user":"", 
+            "name":"FRIED DUMPLINGS",
+            "price":5.95
+            
+
+        },
+        {
+            "user":"", 
+            "name":"PIWPIW",
+            "price":10
+            
+
+        },
+        {
+            "user":"", 
+            "name":"SHOYU",
+            "price":9.50
+            
+
+        },
+        {
+            "user":"", 
+            "name":"MISO",
+            "price":8.95
+            
+
+        },
+        {
+            "user":"", 
+            "name":"KIMCHI",
+            "price":12.95
+            
+
+        },
+        {
+            "user":"", 
+            "name":"TANTAN",
+            "price":12.95
+            
+
+        },
+        {
+            "user":"", 
+            "name":"ORIGINAL",
+            "price":9.95
+            
+
+        },
+        {
+            "user":"", 
+            "name":"FRIED RICE",
+            "price":14.95
+            
+
+        },
+        {
+            "user":"", 
+            "name":"SHRIMPNEGG",
+            "price":8.65
+            
+
+        },
+        {
+            "user":"", 
+            "name":"VEGGIE",
+            "price":11
+            
+
+        }
+]
